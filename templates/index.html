@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./static/assets/css/main.css" />
+		<link rel="shortcut icon" href="{{ url_for('static', filename='./images/favicon.ico') }}">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="./static/images/avtar.png" alt="" /></span>
+					<h1 id="logo"><a href="#">Tushar Harad</a></h1>
+					<p>I make random things,<br />
+					mostly using python</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#about" class="active">About</a></li>
+						<li><a href="#things">Things I Can Do</a></li>
+						<li><a href="#myprojects">My Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://twitter.com/Exton27410002" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/TusharHarad" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:https://www.tusharharad101@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="about">
+								<div class="image main" data-position="center">
+									<img src="./static/images/banner1.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Python Developer</h2>
+										<p>Career Objective </p>
+									</header>
+									<p>I am looking for a challenging career opportunity industry. The ideal profile will help me leverage my knowledge and technical skills. The ideal place will be an organization where I can continue to learn, sharpen my skills while adding value to the organization. The ideal team will be a group of motivated people helping and sharing knowledge with each other with the objective of increasing the competitiveness of the organization.</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="things">
+								<div class="container">
+									<h3>Things I Can Do</h3>
+									<p></p>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">Write all the code</li>
+										<li class="icon solid fa-cubes">Developer tools</li>
+										<li class="icon solid fa-book">Python Libraries</li>
+										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Fast Learner</li>
+										<li class="icon solid fa-users">Team Player</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="myprojects">
+								<div class="container">
+									<h3>My Projects</h3>
+									<p>These are some of the projects I have built using python and its libraries.</p>
+									<div class="features">
+										<article>
+											<a href="https://github.com/TusharHarad/passwordcheck.git" class="image"><img src="./static/images/pw.png" alt="" /></a>
+											<div class="inner">
+												<h4>Password Checker</h4>
+												<p>Checks integrity of the password whether it has been leaked online or not.</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://github.com/TusharHarad/TwitterBot.git" class="image"><img src="./static/images/tw.png" alt="" /></a>
+											<div class="inner">
+												<h4>Twitter BOT</h4>
+												<p>A twitter bot using twitter API which follows you back and searches for tweets with a certain keyword and favorites them.</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://github.com/TusharHarad/Newsboard.git" class="image"><img src="./static/images/news.png" alt="" /></a>
+											<div class="inner">
+												<h4>News Board</h4>
+												<p>A web scraper using Beautiful Soup which scrapes a popular news board and displays only the most rated news articles .</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="contact">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<ul class="icons">
+										<li><a href="" class="icon solid fa-envelope"><span class="label"></span></a></li>
+										  tusharharad101@gmail.com
+									</ul>
+									<p>Will get back to you as soon as possible!</p>
+									<form method='POST' action="submit_msg">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>Thank you for your time! Have a Great Day </li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="./static/assets/js/jquery.min.js"></script>
+			<script src="./static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="./static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="./static/assets/js/browser.min.js"></script>
+			<script src="./static/assets/js/breakpoints.min.js"></script>
+			<script src="./static/assets/js/util.js"></script>
+			<script src="./static/assets/js/main.js"></script>
+
+	</body>
+</html>
